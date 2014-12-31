@@ -1,0 +1,16 @@
+[package]
+
+name = "rust-bindgen-macro"
+version = "0.13.0"
+authors = ["Jyun-Yan You <jyyou.tw@gmail.com>"]
+license = "BSD-3-Clause"
+
+[lib]
+name = "bindgen_macro"
+path = "src/lib.rs"
+plugin = true
+
+[dependencies.rust-bindgen]
+
+git = "https://github.com/chris-chambers/rust-bindgen.git"
+branch = "travis"
